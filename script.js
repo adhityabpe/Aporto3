@@ -6,14 +6,15 @@ function toggleMenu() {
 }
 // Typing animation
 var typed = new Typed(".typing", {
-  strings: ['Web Developer', 'Backend Dev', 'Database Admin', 'Frontend Dev'],
+  strings: ['Web Developer', 'Backend Dev', 'Database Admin', 'Freelancer'],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true,
 })
 var typed = new Typed(".typing-2", {
-  strings: ['Web Developer', 'Backend Dev', 'Database Admin', 'Frontend Dev'],
+  strings: ['Web Developer', 'Backend Dev', 'Database Admin', 'Freelancer'],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true,
 })
+
