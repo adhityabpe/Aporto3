@@ -5,10 +5,13 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background: rgb(58,126,180);
+background: linear-gradient(90deg, rgba(58,126,180,0.1741071428571429) 0%, rgba(29,67,253,0.19931722689075626) 50%, rgba(69,229,252,0.3393732492997199) 100%);
 }
 
 html {
@@ -456,4 +459,7 @@ footer p {
 		transform: translatey(0px);
 	}
 }
+
+
+
 
