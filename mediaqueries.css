@@ -10,6 +10,7 @@
   #projects {
     height: fit-content;
   }
+  
 }
 
 @media screen and (max-width: 1200px) {
@@ -53,7 +54,7 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    height: 65vh;
     margin-bottom: 0;
   }
   article {
@@ -100,5 +101,13 @@
   .text-container {
     text-align: justify;
   }
-  
+  .rounded-profile-pic {
+    border-radius: 50%; /* Makes the image circular */
+    width: 56%; /* Adjust the size as needed */
+    height: auto; /* Ajust the size as needed */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Optional: Adds a border for a polished look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+  }
+    
 }
